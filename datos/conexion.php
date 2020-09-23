@@ -4,6 +4,7 @@ class Conexion{
         define('servidor', 'localhost');
         define('nombre_bd', 'highcharts_2020');
         define('usuario', 'root');
+        define('puerto', '3308');
         define('password', '');
         $opciones = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
         try{
